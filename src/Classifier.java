@@ -24,14 +24,14 @@ public class Classifier {
     public String classify(double[] featureVector) {
         if (trainingData.size() == 0) return "no training data";
 
-        // TODO: write a k-nearest-neighbor classifier.  Return its prediction of "0" to "9"
+        // TODO: write a k-nearest-neighbor classifier.  Return the label it predicts
 
         return "no prediction";  // replace this line
     }
 
     public double distance(double[] d1, double[] d2) {
         // TODO:  Use the n-dimensional Euclidean distance formula to find the distance between d1 and d2
-
+        // Note:  (properly, this method should probably be in DataPoint instead)
         return -1;
     }
 
